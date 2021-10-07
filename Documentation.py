@@ -81,9 +81,9 @@ def MC_SLXD(string_input, starting_position, length, X, direction):
         Parameters: 
         
         string_input (string): The string inserted by the user.
-        X (int): The number of characters shifted in the string.
-        length (int): Length of the string
-        starting_position (int): Character starting position
+        X (int): The number of characters circulated in the string.
+        length (int): Length of the string being circulated from S.
+        starting_position (int): Character starting position.
         direction (string): Direction, right or left (R, L)
         
         Returns:
